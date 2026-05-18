@@ -1,0 +1,95 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: "Courier New", Courier, monospace;
+     background-color: hsl(30, 38%, 92%);
+     font-size: 14px;
+ }
+
+ .main-div {
+     width: 100%;
+     max-width: 600px;
+     height: auto;
+     padding-top: 100px;
+ }
+
+ .continar {
+     display: flex;
+     border-radius: 10px;
+     background-color: white;
+     width: 100%;
+     height: 100%;
+    overflow: hidden;
+ }
+
+ .side2-div {
+     display: grid;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .side1-img{
+     width: 50%;
+     height: 100%;
+ }
+
+ .p1,
+ p {
+     color: hsl(228, 12%, 48%);
+ }
+
+ .p2 {
+     text-decoration-line: line-through;
+ }
+
+ .p3 {
+     font-weight: 1000px;
+     font-size: 32px;
+     color: hsl(158, 36%, 37%);
+     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ }
+
+ .btn1 {
+     background-color: hsl(158, 42%, 18%);
+     color: white;
+     font-size: larger;
+     font-weight: 300px;
+     text-align: center;
+     border-radius: 10px;
+     width: 200px;
+     height: 40px;
+     line-height: 3;
+     position: relative;
+     left: 50px;
+ }
+
+ h1 {
+     color: black;
+     font-weight: 1000px;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 32px;
+ }
+
+ .cart-icon {
+     width: 20px;
+     height: 20px;
+     margin-left: 10px;
+ }
+ @media (max-width:430px) {
+    .continar{
+        display: grid;
+        padding-bottom: 20px;
+    }
+        .side1-img{
+            width: 100%;
+            height: auto;
+        }
+                .main-div{
+                    padding: 10px;
+                }
+                                .btn1{
+                                    margin-left: -20px;
+                                }
+ }
